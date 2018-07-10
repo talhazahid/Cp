@@ -1,0 +1,3016 @@
+@media only screen and (max-width: 767px) {
+    .profile-menu-container {
+        padding: 10px;
+    }
+    .profile-menu-container .mobile-menu-dropdown {
+        width: 100% !important;
+        padding-left: 0px;
+        padding-right: 0;
+        box-sizing: border-box;
+    }
+    .dropdown {
+        display: inline-block;
+        position: relative;
+    }
+    .dd-button {
+        display: inline-block;
+        border: 1px solid gray;
+        border-radius: 4px;
+        padding: 10px 30px 10px 20px;
+        background-color: #ffffff;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+    .dd-button:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid black;
+    }
+    .dd-button:hover {
+        background-color: #eeeeee;
+    }
+    .dd-input {
+        display: none;
+    }
+    .dd-menu {
+        position: absolute;
+        top: 100%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 0;
+        margin: 2px 0 0 0;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        list-style-type: none;
+    }
+    .dd-input+.dd-menu {
+        display: none;
+    }
+    .dd-input:checked+.dd-menu {
+        display: block;
+    }
+    .dd-menu li {
+        padding: 10px 20px;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+    .dd-menu li:hover {
+        background-color: #f6f6f6;
+    }
+    .dd-menu li a {
+        display: block;
+        margin: -10px -20px;
+        padding: 10px 20px;
+    }
+    .dd-menu li.divider {
+        padding: 0;
+        border-bottom: 1px solid #cccccc;
+    }
+    .profile-menu-container {
+        margin: 0 10px !important;
+    }
+    .profile-menu-container .mobile-menu-dropdown {
+        height: 30px !important;
+    }
+    .profile-menu-container .triangle-down {
+        top: -6px !important;
+    }
+
+
+    .profile-menu-container  .sub {
+    
+     width: 99.5% !important;
+box-sizing: border-box;
+    }
+    .table>thead>tr>th,
+    .table>tbody>tr>th,
+    .table>tfoot>tr>th,
+    .table>thead>tr>td,
+    .table>tbody>tr>td,
+    .table>tfoot>tr>td {
+        padding: 8px;
+        line-height: 1.42857143;
+        vertical-align: top;
+        border-top: 1px solid #ddd;
+        max-width: 100%;
+        white-space: pre;
+    }
+    .shopping-activity-container {
+        padding: 28px 14px 0px;
+        border: 1px solid #ccc;
+        margin-top: 25px;
+    }
+    .shopping-table {
+        padding: 0px;
+        width: 100%;
+        overflow-y: scroll;
+    }
+    .faq-container ul {
+        margin-left: 15px;
+    }
+    #rail {
+        display: none;
+    }
+    .cashback-tracking-box {
+        flex-basis: 180px;
+        flex: 1;
+        border: 1px solid #ccc;
+        padding: 12px 22px 0px;
+        position: relative;
+        margin-bottom: 17px;
+    }
+    #content {
+        background-color: #f5f5f5;
+        border-left: 22px solid #fcfcf9;
+        width: 100%;
+        margin: 0 auto;
+        float: left;
+    }
+    #content {
+        background-color: #f5f5f5;
+        border-left: 0px solid #fcfcf9;
+        width: 100%;
+        margin: 0 auto;
+        float: left;
+    }
+    .cashback-tracking-paypal-btn {
+        margin-bottom: 20px;
+    }
+    .cashback-tracking-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 9px;
+        flex-direction: column;
+    }
+    .account-page {
+        padding: 20px 15px;
+    }
+    .cashback-tracking-box:last-child {
+        margin-bottom: 0px;
+        ;
+    }
+    #main {
+        background-color: #fcfcf9;
+        float: right;
+        margin-right: 0;
+        min-height: 800px;
+        padding-right: 0px;
+        width: 100%;
+    }
+    .last-child-padding-bottom:last-child {
+        padding-bottom: 10px;
+    }
+    .product-detail-boxes .cashback-detail-boxes {
+        flex-basis: auto;
+    }
+    .product-top-gray-border:before {
+        position: absolute;
+        height: 1px;
+        display: block;
+        width: 20px;
+        background: #dcdcdc;
+        border-top: 1px white;
+        content: '';
+        left: -20px;
+        top: -1px;
+    }
+    .product-top-gray-border::after {
+        position: absolute;
+        height: 1px;
+        display: block;
+        width: 20px;
+        background: #dcdcdc;
+        border-top: 1px white;
+        content: '';
+        right: -20px;
+        top: -1px;
+    }
+    .cashback-detail-boxes .v-hidden {
+        display: none;
+    }
+    .product-detail-box-heading {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .no-border {
+        border: 0px solid #fff !important;
+    }
+    .loading-cash-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .remodal-wrapper {
+        padding: 0px !important;
+    }
+    .bottom-modal-content-padding {
+        width: 96%;
+        margin: 26px auto 0px;
+        display: inline-block;
+        background: #f6f8f9;
+        border: 1px solid #cdcdcd;
+        margin-bottom: 20px;
+    }
+    .bottom-modal-content-padding .already-member {
+        margin-bottom: 20px;
+    }
+    .cashback-detail-boxes .fa-angle-right {
+        position: absolute;
+        right: 10px;
+        font-size: 27px;
+        color: #999999;
+        display: flex;
+        align-items: center;
+        top: 0;
+        bottom: 0;
+    }
+    .cashback-offer-top-spotlight-box {
+        border: 0px solid #0298a8;
+    }
+    .sidebar .accordion-thumb::before {
+        content: '';
+        display: inline-block;
+        height: 5px;
+        width: 5px;
+        margin-right: 1rem;
+        margin-left: .5rem;
+        vertical-align: middle;
+        border-right: 1px solid;
+        border-bottom: 1px solid;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transition: -webkit-transform .2s ease-out;
+        transition: -webkit-transform .2s ease-out;
+        transition: transform .2s ease-out;
+        transition: transform .2s ease-out, -webkit-transform .2s ease-out;
+    }
+    .cashback-accordion-on-mobile .accordion-thumb {
+        font-weight: normal
+    }
+    .cashback-accordion-on-mobile .accordion-thumb::before {
+        content: '';
+        display: inline-block;
+        height: 5px;
+        width: 5px;
+        margin-right: 1rem;
+        margin-left: .5rem;
+        vertical-align: middle;
+        border-right: 1px solid;
+        border-bottom: 1px solid;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transition: -webkit-transform .2s ease-out;
+        transition: -webkit-transform .2s ease-out;
+        transition: transform .2s ease-out;
+        transition: transform .2s ease-out, -webkit-transform .2s ease-out;
+    }
+    .cashback-accordion-on-mobile .accordion-item.is-active .accordion-thumb::before {
+        -webkit-transform: rotate(224deg);
+        transform: rotate(224deg);
+    }
+    .e-products-container {
+        display: block !important;
+    }
+    .e-product-image img {
+        width: 45%;
+    }
+    .e-product-right {
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .e-product-button {
+        display: inline-block;
+        margin: 1px 25px 12px 0px;
+        float: inherit;
+    }
+    .mobile-top-heading {
+        padding: 0px 15px;
+        margin-bottom: 10px;
+    }
+    .mobile-top-heading h1 {
+        line-height: 1.2 !important;
+        text-align: center;
+    }
+    .top-wrapper-heading h1 {
+        line-height: 1.2 !important;
+        padding: 15px 15px 0px 15px;
+    }
+    .product-detail-heading-row .top-wrapper-heading h1 {
+        line-height: 1.2 !important;
+        padding: 15px 15px 0px 0px;
+    }
+    .static-cover {
+        width: 100%;
+        margin: 10px auto;
+        display: table;
+    }
+    .static-cover img {
+        width: 100%;
+    }
+    .cashback-offer-detail-text {
+        display: block;
+    }
+    .mobile-no-border {
+        border: none !important;
+    }
+    .cover-text-wrapper a {
+        color: #fff;
+        font-size: 14px;
+        display: table;
+        padding: 12px 12px;
+        border: 1px solid #fff;
+        float: right;
+        margin-right: 20px;
+        margin-top: 20px;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+    .featured-cash-box img {
+        padding-bottom: 20px;
+        width: 115px;
+    }
+    .coupons-product-image-box {
+        width: 120px;
+    }
+    .coupons-row-off-sales-with-product-container {
+        padding: 20px 10px 0px !important;
+    }
+    .staff-picks-offer-msg-with-product {
+        font-size: 10px;
+        color: #fff;
+        background-color: #777;
+        padding: 8px;
+        border-radius: 3px 0;
+        width: auto;
+        cursor: default;
+        text-align: center;
+        position: absolute;
+        right: 0px;
+        display: table;
+        float: right;
+    }
+    .cashback-detail-uses-product-detail {
+        font-weight: 400;
+        font-size: 13px;
+        background: #e0e0e0;
+        color: #2e2e2e;
+        padding: 10px;
+        position: relative;
+        bottom: 0;
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .product-mobile-see-details {
+        font-size: 14px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        padding: 15px 0px;
+        width: 100%;
+        float: left;
+        color: #6AAF1E;
+    }
+    .expire-row-mobile {
+        padding-left: 20px !important;
+    }
+    .sidebar {
+        width: auto;
+    }
+    .coupon-codes-bg {
+        background-image: url(../images/hero_29749.jpg);
+        background-size: cover;
+        width: 100%;
+    }
+    .floating-bar {
+        height: auto;
+        bottom: 60px;
+    }
+    .floating-bar .item:nth-last-child(3) {
+        border-right: none !important;
+    }
+    .h1-fav {
+        margin: 0px 0px 10px 15px;
+    }
+    .promo-container {
+        width: auto;
+        margin: 5px auto;
+        display: inline-block;
+    }
+    .promo-container .item {
+        line-height: 35px;
+        border-right: solid 1px #444;
+        padding: 0 6px 0 6px;
+        font-size: 13px;
+        color: #444;
+        text-decoration: none;
+    }
+    .cashback-details-uses-mobile-content {
+        color: #444;
+    }
+    .counpon-sale-box-sale-text-big {
+        color: #0690b3;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .counpon-sale-box-sale-text {
+        color: #0690b3;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .sidebar .accordion {
+        padding: 0px 10px;
+    }
+    .coupons-price-row {
+        display: block;
+        float: left;
+        width: auto;
+        margin-bottom: 0px;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .accordion .is-active {
+        border-bottom: 1px solid #ddd !important;
+    }
+    .top-store-wrapper {
+        padding: 0px 10px;
+        display: flex !important;
+        text-align: center;
+        margin-bottom: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .top-store-wrapper .top-store-box {
+        /* flex-basis: 120px; */
+        padding: 10px 10px 15px;
+        display: inline-block;
+        flex-basis: 42%;
+        margin-bottom: 10px;
+    }
+    .top-store-wrapper .featured-cash-box-text {
+        color: #999;
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .top-store-wrapper {
+        margin-bottom: 0px !important;
+    }
+    .cashback-details-uses-mobile-content div:nth-child(1) {
+        display: inline-block;
+        font-size: 11px;
+        float: left;
+        margin-right: 10px;
+    }
+    .cashback-details-uses-mobile-content div:nth-child(2) {
+        display: inline-block;
+        font-size: 11px;
+        float: left;
+    }
+    .cashback-details-uses-mobile-content div:nth-child(3) {
+        display: inline-block;
+        color: #4192b8;
+        font-size: 11px;
+        float: right;
+    }
+    .cashback-offer-search-fields .curr-title .triangle-down {
+        float: right;
+        margin: 5px -11px 0 0;
+    }
+    .cover-text-one {
+        font-size: 17px;
+        padding-bottom: 5px;
+    }
+    .cover-text-two {
+        font-size: 23px;
+        padding-bottom: 10px;
+    }
+    .cover-text-three {
+        color: #fff;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .cover-text-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        align-items: right;
+        flex-direction: column;
+        margin-right: 0px;
+        flex-basis: 200px;
+        padding-top: 20px;
+    }
+    .cashback-offer-top-cover {
+        background-image: url(../images/cash-offer-cover.jpg);
+        height: 200px;
+        background-position: -150px 0px;
+    }
+    .search-in-cover {
+        display: none;
+    }
+    .promotion-box {
+        background: #d74949;
+        color: #FFF;
+        padding: 35px 25px;
+        text-align: center;
+    }
+    .promotion-description {
+        font-size: 13px;
+        font-weight: normal;
+        color: #4f3636;
+        order: 2;
+        padding: 15px 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .click-to-copy {
+        display: none !important;
+    }
+    .code-copied {
+        display: none !important;
+    }
+    .modal-btn {
+        padding: 12px 70px;
+        width: 75%;
+    }
+    .modal-codes:hover~span:after {
+        opacity: 0;
+    }
+    .modal-codes:hover~span {
+        opacity: 0;
+    }
+    .modal-codes:hover {
+        border: 1px solid #d1d1d1;
+        border-radius: 4px;
+        cursor: pointer;
+        border-top: 0px;
+    }
+    .coupons-modal-box {
+        padding-bottom: 0px !important;
+    }
+    .already-member {
+        color: #444444;
+        font-size: 14px;
+        margin: 18px auto 34px;
+    }
+    .modal-code-box {
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 26px;
+        box-sizing: border-box;
+        width: 94%;
+    }
+    .signup-terms {
+        color: #777777;
+        font-size: 13px;
+        background: #f2f2f2;
+        padding: 20px 0px;
+        border-top: 1px solid #d8d8d8;
+    }
+    .modal-logo {
+        text-align: center;
+        /* border-top: 1px solid #d9d9d9;
+        border-bottom: 1px solid #d9d9d9; */
+        margin-bottom: 25px;
+    }
+    .signup-modal-txt span {
+        display: block;
+        margin-top: 6px;
+        font-size: 20px;
+    }
+    .modal-codes {
+        font-size: 24px;
+        font-weight: 600;
+        color: #08b4df;
+        padding: 12px 0px 9px;
+        border-radius: 0px;
+        border: 1px solid #d1d1d1;
+        display: table;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        margin-top: 0px;
+        text-transform: uppercase;
+        position: relative;
+        width: 100%;
+        background: #fff;
+        border-top: 0px solid;
+    }
+    .mobile-deals-menu a span {}
+    .ccode-popularstores {
+        display: table;
+        margin: 0 auto;
+    }
+    .cashback-offer-detail-boxes:last-child {
+        margin-bottom: 0px;
+    }
+    .top-zero {
+        margin-top: 0px;
+    }
+    .cashback-bottom-text-container {
+        display: none;
+    }
+    .cashback-accordion-on-mobile {
+        padding: 0px 10px;
+    }
+    .cashback-detail-uses {
+        font-weight: 400;
+        font-size: 13px;
+        background: #e0e0e0;
+        color: #2e2e2e;
+        padding: 10px;
+        position: relative;
+        bottom: 0px;
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+        /* flex: 0; */
+    }
+    .super-shopper-container {
+        display: none;
+    }
+    .mod-footer .sitemap {
+        padding: 12px 0px;
+        float: left;
+        width: 100%;
+    }
+    .cashback-offer-detail-boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        margin-bottom: 0px;
+        padding: 0px 10px;
+    }
+    .cashback-detail-box-image {
+        width: 88px;
+        text-align: left;
+        margin: 0 auto;
+        padding: 20px 0px 0px 0px;
+    }
+    .cashback-detail-box-heading {
+        padding: 10px 0px 0px 0px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .cashback-detail-offer {
+        color: #6AAF1E;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        margin: 10px auto 30px;
+        font-size: 16px;
+    }
+    .cashback-detail-boxes {
+        padding: 0px;
+        flex-basis: auto;
+        margin-bottom: 12px;
+        -webkit-box-shadow: 0 2px 2px hsla(0, 0%, 0%, 0.25);
+        -moz-box-shadow: 0 2px 2px hsla(0, 0%, 0%, 0.25);
+        box-shadow: 0 2px 2px hsla(0, 0%, 0%, 0.25);
+    }
+    .cashback-detail-box-image img {
+        width: 143px;
+    }
+    .cashback-offer-detail-boxes-container {
+        margin: 14px 0px;
+    }
+    .cashback-offer-detail-heading {
+        display: block;
+        margin-bottom: 8px;
+    }
+    .cashback-offer-detail-left-box {
+        display: inline-block;
+        padding-top: 0px;
+    }
+    .cashback-curr-title {
+        width: 135px !important;
+    }
+    .cashback-offer-detail-heading-row {
+        margin-bottom: 0px;
+        padding: 0px 10px;
+        margin-top: 0px;
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .cashback-offer-search-fields .offer-types:nth-child(2) {
+        margin-left: 10px;
+        float: right;
+    }
+    .cashback-offer-search-fields {
+        padding: 0px;
+        width: auto;
+        float: left;
+        width: 100%;
+    }
+    .cashback-offer-search-fields .offer-types {
+        display: inline-block;
+    }
+    .cashback-offer-search {
+        float: left;
+        position: relative;
+        padding: 3px 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .cashback-accordion-text {
+        font-size: 14px;
+        margin-top: 5px;
+        margin-left: 45px;
+    }
+    .cashback-offer-search-fields .cashback-offer-search input {
+        width: 100%;
+        padding: 1px 10px;
+        box-sizing: border-box;
+    }
+    .cashback-offer-search-fields .menu.button-look .curr-title {
+        padding: 3px 12px;
+        font-size: 12px;
+        width: 110px;
+    }
+    .cashback-offer-search-fields .offer-types:nth-child(2) .curr-title {
+        padding: 3px 12px;
+        font-size: 12px;
+        width: 100px;
+    }
+    .cashback-offer-search .sign-search {
+        position: absolute;
+        top: -3px;
+        right: 0;
+    }
+    .cashback-accordion-boxes {
+        padding: 0px 10px;
+        text-align: left;
+        border-right: 1px solid #d8ecf4;
+        margin: 15px 0px;
+        /* flex-basis: 0; */
+        position: relative;
+    }
+    .cashback-accordion-heading::before {
+        top: 20px;
+    }
+    .product-detail-boxes a {
+        padding: 20px;
+    }
+    .product-detail-boxes .cashback-detail-box-image {
+        width: 150px;
+        text-align: left;
+        margin: 0 auto;
+        padding: 20px 0px 20px 0px;
+    }
+    .is-active .cashback-accordion-heading::before {
+        -webkit-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+        top: 25px;
+    }
+    .cashback-accordion-subheading {
+        margin-left: 45px;
+    }
+    .cashback-accordion-box-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .cashback-accordion-boxes img {
+        float: left;
+        width: 38px;
+        margin-bottom: 30px;
+        margin-right: 10px;
+        position: absolute;
+        margin-top: 8px;
+    }
+    .cashback-accordion-on-mobile .accordion-box-content ul li {
+        color: #777;
+    }
+    .featured-cashback-offer-boxes {
+        display: flex;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 0px 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .featured-cash-box {
+        flex-basis: 42%;
+        padding: 20px 10px;
+        margin-bottom: 10px;
+        display: inline-block;
+        /* width: 40%; */
+    }
+    .cashback-accordion-heading {
+        margin: 0 auto;
+        padding: 18px 15px;
+        font-size: 15px;
+        background: #e6f5f6;
+        display: table;
+    }
+    .track-cashback-button {
+        padding: 11px 0px;
+        margin-bottom: 5px;
+        width: 93%;
+        text-align: center;
+    }
+    .see-more-cash-button {
+        padding: 11px 0px;
+        margin-bottom: 5px;
+        width: 93%;
+        text-align: center;
+    }
+    .featured-cash-box-text {
+        color: #444;
+        font-size: 13px;
+        margin-bottom: 25px;
+        margin-top: 5px;
+    }
+    .featured-cash-box:last-child {
+        display: none;
+    }
+    .featured-cashback-offer h2 {
+        font-size: 18px;
+        padding: 15px 10px;
+    }
+    .owl-item div {
+        padding: 0px 10px;
+    }
+    .owl-dots {
+        background: #47494e;
+        padding: 10px;
+    }
+    .owl-nav {
+        display: block !important;
+        position: absolute;
+        z-index: 13;
+        width: 92%;
+        top: auto;
+        bottom: 30px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .product-detail-heading-row {
+        padding: 0px 10px;
+    }
+    .product-detail-heading-row .curr-title {
+        padding-bottom: 28px !important;
+        box-sizing: border-box;
+    }
+    .product-detail-heading-row .offer-types {
+        display: inherit !important;
+    }
+    .product-detail-heading-row .cashback-curr-title {
+        width: 100% !important;
+    }
+    .product-detail-heading-row .cashback-offer-search-fields .offer-types.menu .sub {
+        background: none repeat scroll 0 0 #fff;
+        padding: 5px 4px 7px 5px;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+    .hero-wrapper {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 0px;
+        border: 0px solid;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        width: 8px !important;
+        height: 8px !important;
+    }
+    .owl-thumbs {
+        display: none;
+    }
+    .coupons-product-image {
+        /* width: 94px; */
+        height: auto;
+        border-right: 0px solid #dcdcdc;
+    }
+    #sitenav-left {
+        background: #3a3a3a;
+        color: #f0f0f0;
+        font-size: 14px;
+        font-weight: bold;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100% !important;
+        width: 85%;
+        overflow: auto;
+        padding: 0px;
+    }
+    #sitenav-left .bold {
+        font-weight: bold
+    }
+    #sitenav-left .media {
+        margin: 1.5em 0;
+        text-decoration: none;
+        color: white;
+    }
+    #sitenav-left .app-desc {
+        font-size: 12px;
+        font-weight: normal;
+        margin-bottom: 8px;
+    }
+    #sitenav-left .nav {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+    }
+    #sitenav-left .link .nav {
+        padding: 24px 28px 25px 0;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    #sitenav-left .link .nav,
+    #sitenav-left .mod-signinsignuplinks {
+        display: inline-block;
+        width: 128px
+    }
+    #sitenav-left .link .sign-out {
+        border-left: 1px solid #5f5f5f
+    }
+    #sitenav-left .link .nav {
+        background-size: 25px 795px;
+        width: 300px
+    }
+    #sitenav-left .link.printable .nav {
+        background-position: 22px -65px
+    }
+    #sitenav-left .link.couponcodes .nav {
+        background-position: 22px -196px
+    }
+    #sitenav-left .link.passbook .nav {
+        background-position: 20px -286px
+    }
+    #mobile #sitenav-left .link.cliq .nav {
+        background-position: 20px -414px
+    }
+    #sitenav-left .link.profile .nav {
+        background-position: 20px -504px
+    }
+    #sitenav-left .link.favorite .nav {
+        background-position: 20px -622px
+    }
+    #sitenav-left .link.loyalty .nav {
+        background-position: 20px -703px
+    }
+    #sitenav-left .link.goodstuff .nav {
+        background-position: 20px -743px
+    }
+    #sitenav-left .link p {
+        font-weight: normal
+    }
+    #sitenav-left .highlight {
+        margin-bottom: 5px;
+        font-size: 16px;
+        font-weight: bold !important;
+        -webkit-font-smoothing: antialiased
+    }
+    #sitenav-left .link.profile .nav {
+        border-right: 1px solid #5f5f5f;
+        width: 170px
+    }
+    #sitenav-left section {
+        border-top: 1px solid #5f5f5f
+    }
+    #sitenav-left section:first-child {
+        border-top: 0
+    }
+    .icon-loyalty-card:before {
+        content: "\65"
+    }
+    .icon-alert:before {
+        content: "\68"
+    }
+    .icon-star:before {
+        content: "\6a"
+    }
+    .icon-heart:before {
+        content: "\6b"
+    }
+    .icon-shop-bag:before {
+        content: "\69"
+    }
+    .icon-user-new:before {
+        content: "\6c"
+    }
+    .icon-shopping-store:before {
+        content: "\6e"
+    }
+    .icon-info-triangle:before {
+        content: "\6d"
+    }
+    .icon-down-open-big:before {
+        content: "\61"
+    }
+    .icon-up-open-big:before {
+        content: "\62"
+    }
+    .icon-plus-circle:before {
+        content: "\66"
+    }
+    .icon-plus:before {
+        content: "\67"
+    }
+    .icon-user:before {
+        content: "\64"
+    }
+    .icon-card-chip:before {
+        content: "\63"
+    }
+    .icon-close-drawn:before {
+        content: "\2715"
+    }
+    .icon-share-arrow:before {
+        content: "\21f6"
+    }
+    .icon-search:before {
+        content: "\260c"
+    }
+    .icon-share-drawn:before {
+        content: "\21f1"
+    }
+    .icon-lock:before {
+        content: "\2b13"
+    }
+    .icon-location-drawn:before {
+        content: "\25c8"
+    }
+    .icon-checked-drawn:before {
+        content: "\2713"
+    }
+    .icon-plus-drawn:before {
+        content: "\271b"
+    }
+    .icon-icon-twitter:before {
+        content: "\2767"
+    }
+    .icon-google-plus:before {
+        content: "\2722"
+    }
+    .icon-facebook:before {
+        content: "\23c7"
+    }
+    .icon-mail:before {
+        content: "\25ad"
+    }
+    .icon-print:before {
+        content: "\2616"
+    }
+    .icon-loyalty:before {
+        content: "\2711"
+    }
+    .icon-card:before {
+        content: "\2338"
+    }
+    .icon-heart2:before {
+        content: "\e900"
+    }
+    #mobile .flex-wrapper {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        height: 58px;
+        border: 0;
+        margin-top: 10px;
+    }
+    #mobile .popup.mod-search {
+        background: #ededed;
+        height: 40px;
+    }
+    .mod-search .search-border {
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        background-color: transparent;
+        height: 40px;
+        width: 100%;
+    }
+    .search-border .input-search {
+        border: 1px solid #cdcdcd;
+        border-radius: 3px;
+        font-size: 14px;
+        margin: -2px 0 0 0;
+        padding: 0 40px 0 10px;
+        width: 100%;
+        height: 38px;
+        vertical-align: middle;
+        -webkit-box-shadow: inset 0 1px 0 rgba(204, 204, 204, 0.2);
+        -moz-box-shadow: inset 0 1px 0 rgba(204, 204, 204, 0.2);
+        box-shadow: inset 0 1px 0 rgba(204, 204, 204, 0.2);
+        box-sizing: box-border;
+    }
+    .search-border>div {
+        width: 100%;
+    }
+    .icon {
+        font-size: 20px;
+        vertical-align: middle;
+        margin: 20px
+    }
+    .bd {
+        padding-left: 3px;
+        float: left;
+    }
+    .signin {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        background-position: 20px -507px;
+        padding: 24px 5px 25px 45px;
+    }
+    #sitenav-left .media img {
+        width: 100%;
+        height: 100%;
+    }
+    #sitenav-left .app-name {
+        margin-bottom: 3px;
+        font-size: 13px;
+    }
+    #mobile #sitenav-left .app-desc {
+        font-weight: normal;
+        width: 180px;
+    }
+    #mobile #sitenav-left .btn-cta {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .btn-cta,
+    .cta-button {
+        background: #08b4df;
+        border: 0;
+        font-weight: bold;
+        color: #fff;
+        cursor: pointer;
+        padding: 12px 20px;
+        text-decoration: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+    #sitenav-left section.big {
+        padding: 9px 1em 25px 1.5em;
+    }
+    #mobile #sitenav-left .media {
+        margin: 1.5em 0;
+        text-decoration: none;
+        color: white;
+    }
+    #sitenav-left .media .img {
+        height: 50px;
+        float: left;
+        margin-right: 10px;
+        width: 50px;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    [class^="icon-"],
+    [class*=" icon-"] {
+        font-family: "SpriteFont" !important;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale
+    }
+    #sitenav-left .link .nav .icon.icon-home {
+        margin: 2px 20px;
+        background-size: cover;
+        background-image: url(//cdn.cpnscdn.com/static.coupons.com/Sites/img/urban/mobile_home_icon_1.png);
+        width: 15px;
+        height: 15px;
+        display: inline-block
+    }
+    .flex-wrapper {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        height: 58px;
+        border: 0;
+        margin-top: 10px;
+    }
+    .header-search-box {
+        width: 100%;
+        background: #ededed;
+        border-top: 0 solid #cecfca;
+        border-bottom: 1px solid #cecfca;
+        position: relative;
+        z-index: 2;
+        display: none;
+        height: 58px;
+        margin-top: 60px;
+    }
+    .mod-search .input-search {
+        border: 1px solid #777;
+        -moz-border-radius: 3px;
+        color: #000;
+        font-size: 14px;
+        margin: 0;
+        padding: 0 40px 0 15px;
+        height: 40px;
+        vertical-align: middle;
+        background-color: #fff !important;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .flex-wrapper .mod-search {
+        right: 0;
+        float: none;
+        position: absolute;
+        display: inline-block;
+        margin: 0;
+        border: 0;
+        padding: 0px 10px;
+        text-align: center;
+        left: 0;
+        margin-top: 10px;
+    }
+    .search-border .sign-search {
+        opacity: 1;
+    }
+    .cancel-button {
+        position: absolute;
+        right: 13px;
+        top: 23px;
+        font-weight: bold;
+        font-size: 13px;
+        text-decoration: none;
+        color: #000;
+        display: none;
+    }
+    .search-border .fa-search {
+        right: 3px !important;
+        top: -5px !important;
+    }
+    .page-info-description {
+        display: none;
+    }
+    .social-network-favourite-box {
+        display: none;
+    }
+    .fa-search {
+        position: absolute;
+        opacity: .4;
+        right: 6px;
+        top: 5px;
+        padding: 15px;
+        font-size: 15px;
+    }
+    .main-logo {
+        display: inline-block;
+        margin: 0px;
+        width: 80px;
+        height: 50px;
+        margin-left: 56px;
+        margin-top: 3px;
+    }
+    .hide-on-mobile {
+        display: none !important;
+    }
+    .show-on-portrait-devices {
+        display: none;
+    }
+    .mobile-deals-menu {
+        padding: 0px 10px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+    .mobile-deals-menu a {
+        border: 1px solid #6AAF1E;
+        display: flex;
+        padding: 10px 11px;
+        text-decoration: none;
+        font-size: 12px;
+        color: #444;
+        align-items: center;
+        text-align: center;
+    }
+    .top-wrapper-heading-mobile {
+        color: #6AAF1E;
+        font-size: 24px;
+        display: block;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .add-to-favourites {
+        background: #fff;
+        margin: 0 0 13px;
+        border: 0px solid #ddd;
+        border-radius: 0px;
+        border-top: 1px solid #ddd;
+    }
+    .sale-offer-msg {
+        font-size: 10px;
+        color: #fff;
+        background-color: #f0830f;
+        padding: 4px 15px;
+        border-radius: 0px 0;
+        width: auto;
+        cursor: default;
+        text-align: center;
+        position: absolute;
+        right: 0px;
+        display: table;
+        float: left;
+        left: 0px;
+    }
+    .blue-offer-msg {
+        font-size: 10px;
+        color: #fff;
+        background-color: #0492b6;
+        padding: 4px 15px;
+        border-radius: 0px 0;
+        width: auto;
+        cursor: default;
+        text-align: center;
+        position: absolute;
+        right: 0px;
+        display: table;
+        float: left;
+        left: 0px;
+    }
+    .top-margin-less .coupons-row-heading {
+        margin-top: 5px !important;
+        padding: 0px 17px 0px;
+        box-sizing: border-box;
+    }
+    .top-margin-less .coupons-product-image {
+        margin-top: 30px !important;
+    }
+    .mobile-relative {
+        position: inherit !important;
+    }
+    .staff-picks-offer-msg {
+        font-size: 10px;
+        color: #fff;
+        background-color: #777;
+        padding: 4px 15px;
+        border-radius: 0px 0;
+        width: auto;
+        cursor: default;
+        text-align: center;
+        position: absolute;
+        right: 0px;
+        display: table;
+        float: right;
+    }
+    .favorite-logo {
+        text-align: center;
+        margin-top: 14px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        float: left;
+        margin-bottom: 14px;
+    }
+    .add-to-favourite-wrapper {
+        background-color: #fcfcf9;
+        clear: both;
+        border-top: 1px solid #cdcdcd;
+        padding-top: 20px;
+    }
+    .favorite-logo img {
+        width: 187px;
+    }
+    .top-wrapper-heading-mobile h1 {
+        line-height: 21px;
+        font-weight: 700;
+        color: #444;
+        text-align: center;
+        font-size: 17px;
+        padding: 0px 30px;
+    }
+    .ccodes-clicks-date-mobile {
+        color: #666;
+        display: block;
+        font-family: Gotham, Sans-serif;
+        font-size: 12px;
+        margin: 0 10px;
+        text-align: center;
+        margin-top: 4px;
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .coupons-detail-box {
+        display: flex;
+        padding-bottom: 5px;
+        flex-direction: row;
+        /* make main axis vertical */
+        justify-content: center;
+        /* center items vertically, in this case */
+        align-items: center;
+        /* center items horizontally, in this case */
+        position: relative;
+    }
+    .promotion-content-box {
+        flex-direction: row;
+        padding: 0px;
+    }
+    .coupons-buton-row {
+        float: left;
+        margin-top: 6px;
+        width: 100%;
+        order: 2;
+    }
+    .coupons-row-heading {
+        font-size: 15px;
+        font-weight: Bold;
+        color: #444;
+        margin-bottom: 0px;
+        display: inline-block;
+        width: 100%;
+        line-height: 19px;
+        margin-top: 25px;
+    }
+    .coupons-row-off-sales-with-product-container .coupons-row-heading {
+        margin-top: 0px;
+    }
+    .expire-row {
+        padding: 13px 0px;
+        /* order: 5; */
+        background-color: #e1e1e1;
+        margin-top: 5px;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        bottom: 0px;
+    }
+    .fa-angle-right:before {
+        content: "\f105";
+    }
+    .coupons-row-off-sales {
+        border-radius: 0px;
+        margin-bottom: 12px;
+    }
+    .goto {
+        color: #999;
+        position: absolute;
+        right: 10px;
+        margin-top: -14px;
+        font-size: 25px;
+    }
+    .coupons-detail-box .goto {
+        color: #999;
+        position: absolute;
+        right: 10px;
+        margin-top: -14px;
+        font-size: 25px;
+        top: 50%;
+    }
+    .staff-picks-offer-msg-with-product {
+        width: 100%;
+        position: relative;
+        background: none;
+        padding: 0px;
+    }
+    .coupons-row-off-sales {
+        width: 100%;
+        float: left;
+    }
+    .clock-sign {
+        display: none;
+    }
+    .coupons-row-detail .coupons-product-image {
+        padding: 10px 0px;
+    }
+    .coupons-button-cash-back {
+        color: #6AAF1E;
+        display: inline-block;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 23px;
+        padding: 0px;
+    }
+    .coupon-sale-box {
+        padding: 0px 6px;
+    }
+    .staff-picks-offer-msg-with-product div {
+        font-size: 10px;
+        color: #fff;
+        background-color: #777;
+        padding: 4px 15px;
+        width: auto;
+        cursor: default;
+        text-align: center;
+        position: relative;
+        right: 0px;
+        display: table;
+        float: right;
+    }
+    .coupons-btn {
+        float: right;
+    }
+    .coupons-btn {
+        display: none;
+    }
+    .coupons-row-detail {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 15px 0px 0px;
+    }
+    .promotion-content-row {
+        padding: 0px 10px;
+        flex: auto;
+    }
+    .add-to-favourites {
+        order: 1;
+    }
+    .top-wrapper-heading-mobile {
+        order: 2;
+    }
+    .coupons-list-details {
+        order: 3;
+        padding: 0px 12px;
+    }
+    .top-wrapper-heading {
+        order: 4;
+    }
+    .categories-no-teasers {
+        display: none;
+    }
+    .mobile-breadcrumb {
+        width: auto;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #999999;
+        font-size: 11px;
+        padding: 0px 10px;
+        font-weight: 600;
+    }
+    .mobile-breadcrumb a {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: #999999;
+        font-size: 12px;
+    }
+    .google-right-bar-ad {
+        order: 7;
+        text-align: center;
+    }
+    .dividergray {
+        display: none;
+    }
+    .accordion-thumb {
+        background: #fff;
+        color: #444;
+        border-bottom: 0px solid #e5e5e5;
+        padding: 15px;
+    }
+    .sidebar .accordion-thumb {
+        font-weight: normal;
+    }
+    .is-active .accordion-thumb {
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .cashback-accordion-on-mobile .accordion-thumb {
+        background: #fff;
+        color: #444;
+        border-bottom: 1px solid #e5e5e5;
+        padding: 15px;
+        font-size: 14px;
+    }
+    .accordion-thumb::before {
+        position: absolute;
+        right: 20px;
+        margin-top: 3px;
+    }
+    .mod-footer .copyright .right {
+        padding-left: 0px;
+        width: 210px;
+    }
+    .mod-footer {
+        margin: 0 auto auto;
+        width: 100%;
+        min-width: auto;
+        float: left;
+        background: #e5e4e4;
+    }
+    .mod-footer .copyright .ft {
+        max-width: 970px;
+        margin: 0 auto;
+        text-align: center;
+        display: block !important;
+        vertical-align: middle;
+        line-height: 30px;
+        color: #888;
+        font-size: 12px;
+        float: none;
+        background: #e5e4e4;
+    }
+    .mod-footer .copyright .left {
+        width: 100%;
+        /* float: left; */
+        text-align: center;
+        margin: 0 auto;
+    }
+    .right-col {
+        flex-basis: 100%;
+        color: #fff;
+        padding: 2%;
+        order: 8;
+    }
+    .floating-header {
+        display: none;
+    }
+    .main-container {
+        display: inline-block;
+        padding: 0;
+        width: 100%;
+    }
+    .breadcrumbs {
+        display: none;
+    }
+    .coupons-detail-box .logo {
+        display: none;
+    }
+    .two-col-main-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .coupons-row-description {
+        display: none;
+    }
+    .main-content {
+        width: auto;
+        float: left;
+        display: block;
+        padding: 0px 10px;
+    }
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 0px;
+        border: 0px solid #bababa;
+        display: flex;
+        padding: 0%;
+        flex-direction: column;
+    }
+    .favorite-shadow {
+        display: none;
+    }
+    .desktop-menu {
+        display: none;
+    }
+    .favorite-store {
+        background-color: #eee;
+        width: auto;
+        height: 30px;
+        float: right;
+        margin: 0;
+        font-size: 14px;
+        color: #999;
+        cursor: pointer;
+        padding: 3px 6px;
+    }
+    header {
+        width: 100%;
+        padding: 0px 0px;
+        height: 60px;
+        border-bottom: 1px solid #cecfca;
+    }
+    .accordion li {
+        border-radius: 0px;
+        margin-bottom: 0px;
+    }
+    .accordion {
+        border-top: 0px solid #e5e5e5;
+    }
+    .sign-profile-box {
+        display: none;
+    }
+    .bottom-column {
+        background: #7539d6;
+        flex-basis: 100%;
+        color: #fff;
+        padding: 2%;
+        height: 200px;
+        order: 3;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .flex-col-mobile {
+        flex-direction: column;
+        text-align: center;
+    }
+    .coupon-codes-small-text {
+        display: none;
+    }
+    .counpon-sale-box-code-text {
+        margin-top: 8px;
+    }
+    .promotion-content-box .goto {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #rail {
+        width: 162px;
+        float: left;
+        background: #f5f5f5;
+        height: 100vh;
+    }
+    .cashback-tracking-box {
+        flex-basis: 157px;
+        /* flex: 1; */
+        border: 1px solid #ccc;
+        padding: 12px 10px;
+        position: relative;
+    }
+    #content {
+        background-color: #fcfcf9;
+        border-left: 0px solid #fcfcf9;
+        width: 100%;
+        margin: 0 auto;
+        /* float: left; */
+    }
+    .cashback-tracking-paypal-btn {
+        width: 137px;
+    }
+    #main {
+        background-color: #fcfcf9;
+        float: right;
+        margin-right: 0;
+        min-height: 800px;
+        padding-right: 23px;
+        width: 75%;
+    }
+    .search-in-cover .sign-search {
+        position: absolute;
+        color: #000;
+        top: 17px;
+        right: 0px;
+        text-decoration: none;
+        opacity: 1;
+    }
+    .cashback-offer-search-fields .offer-types:nth-child(2) {
+        margin-left: 10px;
+    }
+    .cashback-offer-detail-heading {
+        margin-right: 5px;
+    }
+    .static-cover {
+        width: 100%;
+        margin: 10px auto;
+        display: table;
+    }
+    .static-cover img {
+        width: 100%;
+    }
+    .counpon-sale-box-sale-text-big {
+        color: #0690b3;
+        font-size: 26px;
+        font-weight: 900;
+    }
+    .counpon-sale-box-sale-text {
+        color: #0690b3;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .hide-on-pad {
+        display: none !important;
+    }
+    .promotion-box {
+        background: #d74949;
+        color: #FFF;
+        padding: 50px 15px;
+        text-align: center;
+    }
+    .promotion-description {
+        font-size: 13px;
+        font-weight: normal;
+        color: #4f3636;
+        order: 2;
+        padding: 15px 0px;
+        padding-bottom: 0px;
+    }
+    .hero-wrapper {
+        width: 100%;
+    }
+    .ccode-popularstores a {
+        color: #999;
+        text-decoration: none;
+        float: left;
+    }
+    .isFeatured-store {
+        border: 1px solid #777 !important;
+        width: 170px !important;
+        height: 63px !important;
+        padding-top: 0 !important;
+        position: relative;
+    }
+    .ccode-popularstores-item {
+        margin: 23px 10px;
+        vertical-align: middle;
+        float: none;
+        width: 106px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .ccode-popularstores {
+        margin: 0;
+        display: inline-block;
+        width: 100%;
+        font-size: 12px;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        color: #08b4df;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .cashback-accordion-heading::before {
+        top: 24px;
+    }
+    .cashback-accordion-boxes {
+        padding: 0px 15px;
+        text-align: center;
+        border-right: 1px solid #d8ecf4;
+        margin: 15px 0px;
+        /* flex-basis: 0; */
+    }
+    .cashback-accordion-heading {
+        margin: 0;
+        padding: 15px 15px;
+    }
+    .cashback-bottom-text-container {
+        margin-bottom: 50px;
+        padding: 0px 20px;
+    }
+    .cashback-offer-detail-heading-row {
+        margin-bottom: 36px;
+        padding: 0px;
+    }
+    .cashback-offer-detail-heading-row {
+        margin-bottom: 36px;
+        padding: 0px;
+    }
+    .featured-cash-box {
+        flex-basis: 20%;
+        padding: 20px 10px;
+        border: 1px solid #e7e7e7;
+        text-align: center;
+    }
+    .featured-cash-box:last-child {
+        display: none;
+    }
+    .cashback-offer-detail-left-box {
+        display: inline-block;
+        padding-top: 14px;
+        float: left;
+    }
+    .cashback-offer-search-fields {
+        /* margin-top: 15px;  */
+        /* width: 100%; */
+        float: right;
+        /* padding: 0px 20px; */
+        box-sizing: border-box;
+    }
+    .cashback-offer-search .sign-search {
+        position: absolute;
+        top: 9px;
+        right: 0px;
+    }
+    .super-shopper .emailSignupContainer {
+        margin: 0 auto;
+        text-align: left;
+        width: 100%;
+    }
+    .cashback-offer-search input {
+        width: 200px;
+    }
+    .super-shopper .signup-btn {
+        height: 40px;
+        width: 132px;
+        background-color: #6AAF1E;
+        border-radius: 0;
+        margin-left: 311px;
+        color: #fff;
+        font-size: 13px;
+        -webkit-transform: translate(0%, -2%);
+        transform: translate(0%, 0%);
+        font-weight: bold;
+        display: inline-block;
+        border: 1px solid #6AAF1E;
+        box-sizing: border-box;
+        line-height: 40px;
+        cursor: pointer;
+        vertical-align: top
+    }
+    .super-shopper .emailinput {
+        height: 40px;
+        width: auto !important;
+        border: 1px solid #fff;
+        border-radius: 0;
+        padding: 0 0 0 40px;
+        color: #999;
+        display: inline-block;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    .super-shopper .email_icon {
+        position: relative;
+        left: -210px;
+        margin: 0px;
+    }
+    .super-shopper .terms {
+        padding: 0 0 15px;
+        font-size: 11px;
+        color: #999;
+        margin-left: 0;
+    }
+    .super-shopper .signup-btn {
+        margin-left: 0px;
+        position: relative;
+        right: 28px;
+    }
+    .subscribe-email::before {
+        background: url(../images/cc_top_sprites_11.png) scroll 1px -217px no-repeat;
+        display: inline-block;
+        width: 25px;
+        height: 19px;
+        content: '';
+        position: absolute;
+        top: 8px;
+        left: 7px;
+    }
+    .cashback-detail-box-image {
+        width: 150px;
+    }
+    .cashback-detail-box-image img {
+        width: 100%;
+    }
+    .cashback-offer-detail-heading-row {
+        margin-bottom: 0px;
+        padding: 0px 20px;
+    }
+    .cashback-offer-detail-boxes-container {
+        width: auto;
+        float: left;
+        margin: 28px 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .cashback-detail-boxes {
+        padding: 40px 12px 10px;
+        border: 1px solid #cdcdcd;
+        flex-basis: initial;
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        /* align-items: center; */
+        position: relative;
+        width: 28%;
+    }
+    .cashback-offer-detail-boxes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        margin-bottom: 20px;
+        padding: 0px 20px;
+    }
+    .featured-cashback-offer {
+        padding: 0px 20px
+    }
+    .mobile-share {
+        display: none;
+    }
+    .sidebar {
+        width: 250px;
+    }
+    .coupons-product-image {
+        width: 120px;
+        border-right: 1px solid #dcdcdc;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #sitenav-left {
+        background: #3a3a3a;
+        color: #f0f0f0;
+        font-size: 14px;
+        font-weight: bold;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100% !important;
+        width: 85%;
+        overflow: auto;
+        padding: 0px;
+    }
+    #sitenav-left .bold {
+        font-weight: bold
+    }
+    #sitenav-left .media {
+        margin: 1.5em 0;
+        text-decoration: none;
+        color: white;
+    }
+    #sitenav-left .app-desc {
+        font-weight: normal;
+        margin-bottom: 8px;
+    }
+    #sitenav-left .nav {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+    }
+    #sitenav-left .link .nav {
+        padding: 24px 28px 25px 0;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    #sitenav-left .link .nav,
+    #sitenav-left .mod-signinsignuplinks {
+        display: inline-block;
+        width: 128px
+    }
+    #sitenav-left .link .sign-out {
+        border-left: 1px solid #5f5f5f
+    }
+    #sitenav-left .link .nav {
+        background-size: 25px 795px;
+        width: 300px
+    }
+    #sitenav-left .link.printable .nav {
+        background-position: 22px -65px
+    }
+    #sitenav-left .link.couponcodes .nav {
+        background-position: 22px -196px
+    }
+    #sitenav-left .link.passbook .nav {
+        background-position: 20px -286px
+    }
+    #mobile #sitenav-left .link.cliq .nav {
+        background-position: 20px -414px
+    }
+    #sitenav-left .link.profile .nav {
+        background-position: 20px -504px
+    }
+    #sitenav-left .link.favorite .nav {
+        background-position: 20px -622px
+    }
+    #sitenav-left .link.loyalty .nav {
+        background-position: 20px -703px
+    }
+    #sitenav-left .link.goodstuff .nav {
+        background-position: 20px -743px
+    }
+    #sitenav-left .link p {
+        font-weight: normal
+    }
+    #sitenav-left .highlight {
+        margin-bottom: 5px;
+        font-size: 16px;
+        font-weight: bold !important;
+        -webkit-font-smoothing: antialiased
+    }
+    #sitenav-left .link.profile .nav {
+        border-right: 1px solid #5f5f5f;
+        width: 170px
+    }
+    #sitenav-left section {
+        border-top: 1px solid #5f5f5f
+    }
+    #sitenav-left section:first-child {
+        border-top: 0
+    }
+    .icon-loyalty-card:before {
+        content: "\65"
+    }
+    .icon-alert:before {
+        content: "\68"
+    }
+    .icon-star:before {
+        content: "\6a"
+    }
+    .icon-heart:before {
+        content: "\6b"
+    }
+    .icon-shop-bag:before {
+        content: "\69"
+    }
+    .icon-user-new:before {
+        content: "\6c"
+    }
+    .icon-shopping-store:before {
+        content: "\6e"
+    }
+    .icon-info-triangle:before {
+        content: "\6d"
+    }
+    .icon-down-open-big:before {
+        content: "\61"
+    }
+    .icon-up-open-big:before {
+        content: "\62"
+    }
+    .icon-plus-circle:before {
+        content: "\66"
+    }
+    .icon-plus:before {
+        content: "\67"
+    }
+    .icon-user:before {
+        content: "\64"
+    }
+    .icon-card-chip:before {
+        content: "\63"
+    }
+    .icon-close-drawn:before {
+        content: "\2715"
+    }
+    .icon-share-arrow:before {
+        content: "\21f6"
+    }
+    .icon-search:before {
+        content: "\260c"
+    }
+    .icon-share-drawn:before {
+        content: "\21f1"
+    }
+    .icon-lock:before {
+        content: "\2b13"
+    }
+    .icon-location-drawn:before {
+        content: "\25c8"
+    }
+    .icon-checked-drawn:before {
+        content: "\2713"
+    }
+    .icon-plus-drawn:before {
+        content: "\271b"
+    }
+    .icon-icon-twitter:before {
+        content: "\2767"
+    }
+    .icon-google-plus:before {
+        content: "\2722"
+    }
+    .icon-facebook:before {
+        content: "\23c7"
+    }
+    .icon-mail:before {
+        content: "\25ad"
+    }
+    .icon-print:before {
+        content: "\2616"
+    }
+    .icon-loyalty:before {
+        content: "\2711"
+    }
+    .icon-card:before {
+        content: "\2338"
+    }
+    .icon-heart2:before {
+        content: "\e900"
+    }
+    #mobile .flex-wrapper {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        height: 58px;
+        border: 0;
+        margin-top: 10px;
+    }
+    #mobile .popup.mod-search {
+        background: #ededed;
+        height: 40px;
+    }
+    .mod-search .search-border {
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        background-color: transparent;
+        height: 40px;
+        width: 100%;
+    }
+    .search-border .input-search {
+        border: 1px solid #cdcdcd;
+        border-radius: 3px;
+        font-size: 14px;
+        margin: -2px 0 0 0;
+        padding: 0 40px 0 10px;
+        width: 100%;
+        height: 38px;
+        vertical-align: middle;
+        -webkit-box-shadow: inset 0 1px 0 rgba(204, 204, 204, 0.2);
+        -moz-box-shadow: inset 0 1px 0 rgba(204, 204, 204, 0.2);
+        box-shadow: inset 0 1px 0 rgba(204, 204, 204, 0.2);
+        box-sizing: box-border;
+    }
+    .search-border>div {
+        width: 100%;
+    }
+    .icon {
+        font-size: 20px;
+        vertical-align: middle;
+        margin: 20px
+    }
+    .bd {
+        padding-left: 10px;
+        float: left;
+    }
+    .signin {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        background-position: 20px -507px;
+        padding: 24px 5px 25px 45px;
+    }
+    #sitenav-left .media img {
+        width: 100%;
+        height: 100%;
+    }
+    #sitenav-left .app-name {
+        margin-bottom: 3px;
+        font-size: 16px;
+    }
+    #mobile #sitenav-left .app-desc {
+        font-weight: normal;
+        width: 180px;
+    }
+    #mobile #sitenav-left .btn-cta {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .btn-cta,
+    .cta-button {
+        background: #08b4df;
+        border: 0;
+        font-weight: bold;
+        color: #fff;
+        cursor: pointer;
+        padding: 12px 20px;
+        text-decoration: none;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+    #sitenav-left section.big {
+        padding: 9px 1em 25px 1.5em;
+    }
+    #mobile #sitenav-left .media {
+        margin: 1.5em 0;
+        text-decoration: none;
+        color: white;
+    }
+    #sitenav-left .media .img {
+        height: 50px;
+        float: left;
+        margin-right: 10px;
+        width: 50px;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    [class^="icon-"],
+    [class*=" icon-"] {
+        font-family: "SpriteFont" !important;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale
+    }
+    #sitenav-left .link .nav .icon.icon-home {
+        margin: 2px 20px;
+        background-size: cover;
+        background-image: url(//cdn.cpnscdn.com/static.coupons.com/Sites/img/urban/mobile_home_icon_1.png);
+        width: 15px;
+        height: 15px;
+        display: inline-block
+    }
+    .flex-wrapper {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        height: 58px;
+        border: 0;
+        margin-top: 10px;
+    }
+    .header-search-box {
+        width: 100%;
+        background: #ededed;
+        border-top: 0 solid #cecfca;
+        border-bottom: 1px solid #cecfca;
+        position: relative;
+        z-index: 2;
+        display: none;
+        height: 58px;
+        margin-top: 60px;
+    }
+    .mod-search .input-search {
+        border: 1px solid #777;
+        -moz-border-radius: 3px;
+        color: #000;
+        font-size: 14px;
+        margin: 0;
+        padding: 0 40px 0 15px;
+        height: 40px;
+        vertical-align: middle;
+        background-color: #fff !important;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .flex-wrapper .mod-search {
+        right: 0;
+        float: none;
+        position: absolute;
+        display: inline-block;
+        margin: 0;
+        border: 0;
+        padding: 0px 10px;
+        text-align: center;
+        left: 0;
+        margin-top: 10px;
+    }
+    .search-border .sign-search {
+        opacity: 1;
+    }
+    .cancel-button {
+        position: absolute;
+        right: 13px;
+        top: 23px;
+        font-weight: bold;
+        font-size: 13px;
+        text-decoration: none;
+        color: #000;
+        display: none;
+    }
+    .search-border .fa-search {
+        right: 3px !important;
+        top: -5px !important;
+    }
+    .page-info-description {
+        display: block;
+    }
+    .social-network-favourite-box {
+        display: block;
+    }
+    .fa-search {
+        position: absolute;
+        opacity: .4;
+        right: 6px;
+        top: 5px;
+        padding: 15px;
+        font-size: 15px;
+    }
+    .main-logo {
+        display: inline-block;
+        margin: 0px;
+        width: 80px;
+        height: 50px;
+        margin-left: 56px;
+        margin-top: 3px;
+    }
+    .mobile-deals-menu {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        display: none;
+    }
+    .mobile-deals-menu a {
+        border: 1px solid #6AAF1E;
+        display: inline-block;
+        padding: 10px 18px;
+        text-decoration: none;
+        font-size: 13px;
+        color: #444;
+    }
+    .top-wrapper-heading-mobile {
+        color: #6AAF1E;
+        font-size: 24px;
+        display: block;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .add-to-favourites {
+        background: #fff;
+        margin: 0 0 20px;
+        border: 1px solid #ddd;
+        border-radius: 0px;
+        border-top: 1px solid #ddd;
+    }
+    .staff-picks-offer-msg {
+        /* font-size: 10px;
+    color: #fff;
+    background-color: #85cd4d;
+    padding: 8px;
+    border-radius: 3px 0;
+    width: auto;
+    cursor: default;
+    text-align: center;
+    position: absolute;
+    right: 0px; */
+    }
+    .favorite-logo {
+        text-align: center;
+        margin-top: 22px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        float: left;
+        margin-bottom: 23px;
+    }
+    .add-to-favourite-wrapper {
+        background-color: #fcfcf9;
+        clear: both;
+        border-top: 1px solid #cdcdcd;
+        padding-top: 20px;
+    }
+    .favorite-logo img {
+        width: 115px;
+    }
+    .top-wrapper-heading-mobile h1 {
+        line-height: 1.8;
+        font-weight: 700;
+        color: #444;
+        text-align: center;
+        font-size: 18px;
+    }
+    .ccodes-clicks-date-mobile {
+        color: #777;
+        display: block;
+        font-family: Gotham, Sans-serif;
+        font-size: 12px;
+        margin: 0 10px;
+        text-align: center;
+        margin-top: 4px;
+        color: #777;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .coupons-detail-box {
+        display: flex;
+        flex-direction: row;
+        /* make main axis vertical */
+        justify-content: center;
+        /* center items vertically, in this case */
+    }
+    .coupons-price-row {
+        width: 100%;
+        margin-top: 10px;
+        clear: both;
+    }
+    .coupons-buton-row {
+        float: left;
+        margin-top: 15px;
+        width: 100%;
+        order: 2;
+        margin-bottom: 20px;
+    }
+    .promotion-box .coupons-buton-row {
+        float: left;
+        margin-top: 0;
+        width: initial;
+        order: 2;
+        margin-bottom: 20px;
+    }
+    .promotion-button {
+        width: 120px;
+        margin-top: 0px;
+        margin-right: 0;
+        float: right;
+    }
+    .coupons-row-heading {
+        width: 62%;
+        padding-right: 5px;
+    }
+    .coupons-btn-deals {
+        width: 100px;
+        right: 15px;
+        height: 33px;
+        font-size: 12px;
+    }
+    .coupons-current-price {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    .expire-row {
+        float: left;
+        clear: both;
+        /* background-color: #e1e1e1; */
+        margin-top: 5px;
+        padding-bottom: 0px;
+    }
+    .fa-angle-right:before {
+        content: "\f105";
+    }
+    .coupons-row-off-sales {
+        border-radius: 0px;
+    }
+    .goto {
+        color: #999;
+        position: absolute;
+        right: 10px;
+        margin-top: -14px;
+        font-size: 25px;
+        display: none !important;
+    }
+    .coupons-row-off-sales {
+        width: 100%;
+    }
+    .clock-sign {
+        display: none;
+    }
+    .coupons-button-cash-back {
+        color: #6AAF1E;
+        display: inline-block;
+        margin-right: 0px;
+        font-size: 15px;
+        margin-top: 5px;
+        float: left;
+        clear: both;
+    }
+    .coupons-row-off-sales-with-product-container .coupons-product-image {
+        padding-left: 0px;
+    }
+    .coupons-btn {
+        float: right;
+        right: 15px;
+        width: 100px;
+        font-size: 12px;
+        height: 33px;
+    }
+    .coupons-row-detail {
+        padding: 28px 0px 20px 20px;
+        position: relative;
+        flex: 1;
+    }
+    .add-to-favourites {
+        order: 1;
+    }
+    .top-wrapper-heading-mobile {
+        order: 2;
+    }
+    .coupons-list-details {
+        order: 3;
+        padding: 0px 12px;
+    }
+    .top-wrapper-heading {
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .categories-no-teasers {
+        display: none;
+    }
+    .mobile-breadcrumb {
+        order: 5;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #999999;
+        font-size: 12px;
+        display: none;
+    }
+    .google-right-bar-ad img {
+        width: 100%;
+    }
+    .mobile-breadcrumb a {
+        order: 5;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: #999999;
+        font-size: 12px;
+    }
+    .google-right-bar-ad {
+        order: 7;
+        text-align: center;
+    }
+    .dividergray {
+        display: none;
+    }
+    .accordion-thumb {
+        border-bottom: 1px solid #e5e5e5;
+        padding: 7px 15px;
+    }
+    .mod-miscellaneous .promos li {
+        margin-bottom: 20px;
+    }
+    .mod-footer .copyright {
+        padding: 0px;
+        width: 100%;
+    }
+    .accordion-thumb::before {
+        position: absolute;
+        right: 10px;
+        margin-top: 3px;
+        display: none;
+    }
+    .mod-footer .copyright .right {
+        /* padding-left: 0px;  */
+        /* width: 210px; */
+        float: none;
+    }
+    .mod-footer {
+        margin: 0 auto auto;
+        width: 100%;
+    }
+    .mod-footer .copyright .left {}
+    .right-col {
+        flex-basis: 100%;
+        color: #fff;
+        padding: 2%;
+        order: 8;
+    }
+    .floating-header {
+        display: none;
+    }
+    .main-container {
+        display: inline-block;
+        padding: 0;
+        width: 100%;
+    }
+    .breadcrumbs {
+        display: block;
+        margin-left: 20px;
+        width: auto;
+    }
+    .mod-miscellaneous .footer {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .ratingStars {
+        margin-bottom: 5px;
+    }
+    .top-wrapper-heading h1 {
+        line-height: 24px;
+        font-weight: 700;
+        font-size: 24px;
+        display: inline-block;
+    }
+    .coupons-detail-box .logo {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .two-col-main-container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .coupons-row-description {
+        display: none;
+    }
+    .main-content {
+        width: 62%;
+        float: left;
+        display: block;
+    }
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 0px;
+        border: 0px solid #bababa;
+        display: flex;
+        padding: 0%;
+        flex-direction: column;
+    }
+    .favorite-shadow {
+        display: none;
+    }
+    .desktop-menu {
+        display: none;
+    }
+    .favorite-store {
+        background-color: #eee;
+        width: auto;
+        height: 30px;
+        float: right;
+        margin: 0;
+        font-size: 14px;
+        color: #999;
+        cursor: pointer;
+        padding: 3px 6px;
+    }
+    header {
+        width: 100%;
+        padding: 0px 0px;
+        height: 60px;
+    }
+    .accordion li {
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .accordion {
+        border-top: 0px solid #e5e5e5;
+    }
+    .sign-profile-box {
+        display: none;
+    }
+    .bottom-column {
+        background: #7539d6;
+        flex-basis: 100%;
+        color: #fff;
+        padding: 2%;
+        height: 200px;
+        order: 3;
+    }
+    .products-categories-menu ul li a {
+        margin: 0px 4px !important;
+    }
+    .cashback-bottom-container {
+        width: auto !important;
+    }
+    .cashback-bottom-text-two-col-container {
+        align-items: flex-start;
+    }
+    .featured-cashback-offer-boxes {
+        flex-wrap: wrap;
+    }
+    .top-store-box {
+        flex-basis: 210px;
+        margin-bottom: 20px;
+    }
+    .cover-text-wrapper {
+        transform: scale(0.9) !important;
+        margin-right: 80px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    header {
+        margin: 0 auto;
+        display: table;
+        width: 100%;
+        padding: 0px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 9999px) {
+    .cashback-detail-used-desktop {
+        font-size: 12px;
+        color: #444;
+    }
+    header {
+        margin: 0 auto;
+        display: table;
+        width: 980px;
+        padding: 0px 20px;
+        padding-bottom: 14px;
+    }
+    .main-container-full-980 {
+        padding-left: 0;
+        padding-right: 0;
+        width: 980px;
+    }
+    .accordion {
+        border-top: 0px solid #e5e5e5;
+    }
+    .flex-wrapper .popup {
+        display: none;
+    }
+    .cancel-button {
+        display: none;
+    }
+    .mobile-menu-btn {
+        display: none;
+    }
+    .mobile-share {
+        display: none;
+    }
+    .mobile-breadcrumb {
+        display: none;
+    }
+    .mobile-deals-menu {
+        display: none !important;
+    }
+    .hide-on-big-devices {
+        display: none;
+    }
+    .accordion-thumb::before {
+        content: '';
+        display: none;
+    }
+    .fa-angle-right {
+        display: none !important;
+    }
+    .promo-container .fa-angle-right {
+        display: inline-block !important;
+    }
+    .cashback-detail-boxes .fa-angle-right {
+        display: block !important;
+    }
+    .header-search {
+        display: none !important;
+    }
+    .cashback-detail-boxes .arrow-hide-on-big-devices {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+    .top-store-box {
+        flex-basis: 275px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 620px) and (max-width:767px) {
+    .cashback-offer-top-cover {
+        background-image: url(../images/cash-offer-cover.jpg);
+        height: 200px;
+        background-position: center;
+    }
+    .featured-cash-box {
+        flex-basis: 45%;
+    }
+    .top-store-wrapper .top-store-box {
+        flex-basis: 45%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 9999px) {
+    .profile-menu-container {
+        display: none;
+    }
+    .mod-footer .sitemap ul li:nth-last-child(2) {
+        display: none;
+    }
+    .coupons-row-off-sales {
+        box-shadow: none;
+    }
+    .cashback-accordion-bg {
+        background: none;
+    }
+    .mobile-favourite-content {
+        display: none;
+    }
+    .cashback-details-uses-mobile-content {
+        display: none;
+    }
+    .modal-tip-down {
+        display: none;
+    }
+    .cashback-accordion-on-mobile {
+        display: none;
+    }
+    .owl-carousel-mobile {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 330px) {}
+
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+    .coupon-codes-bg {
+        background-image: url(../images/hero_29750.jpg);
+        background-size: contain;
+        background-position: top left;
+        width: 100%;
+    }
+    .coupon-codes-bg {
+        background-size: cover;
+        background-position: center center;
+        height: 240px;
+    }
+    .floating-bar {
+        bottom: 30px;
+    }
+}
+
+/*  IE9-10-11 */
+
+@media screen and (min-width: 768px\0) and (max-width: 1023px\0) {
+    .cashback-bottom-text-container {
+        padding: 20px !important
+    }
+    .cashback-bottom-container {
+        width: 100% !important
+    }
+    .cashback-detail-boxes {
+        flex-basis: auto;
+    }
+    .coupons-product-image {
+        height: 100%;
+    }
+}
+
+/*  IE9-10-11 */
+
+@media screen and (max-width: 767px\0) {
+    
+    .cashback-tracking-container {display: block !important;}
+    .coupon-sale-box {
+        padding: 15px 6px !important
+    }
+    .product-detail-boxes .cashback-detail-boxes {
+        flex-basis: auto;
+    }
+    .coupons-detail-box {
+        display: block !important;
+        text-align: center;
+    }
+    .coupons-detail-box .coupons-product-image {
+        width: 100%;
+    }
+    .cashback-detail-boxes {
+        display: block !important;
+    }
+    .cashback-accordion-boxes {
+        flex: none;
+    }
+    .coupons-product-image {
+        height: 100%;
+    }
+    .coupons-detail-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /*Center horizontaly ie */
+        -ms-flex-pack: center;
+        display: -ms-flexbox;
+        height: 100%;
+    }
+    .goto {
+        top: 50%;
+    }
+    .coupons-list-details {
+        height: 100%;
+    }
+}
+
+/*  IE9-10-11 */
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    .coupons-product-image {
+        height: 100%;
+    }
+}
+
+/*  Edue Fix */
+
+@supports (display:-ms-grid) {}
+
+@media screen and (min-width: 768px\0) and (max-width: 9999px\0) {
+    .coupons-row-detail {
+        flex-basis: 600px;
+    }
+    .coupons-product-image {
+        width: 170px;
+    }
+    .coupons-row-off-sales {
+        display: flex;
+    }
+    .mod-search {
+        width: 400px;
+    }
+    .cashback-detail-boxes .fa-angle-right {
+        top: 50%;
+    }
+    .sign-in-button {
+        float: left;
+        position: relative;
+        top: 13px;
+    }
+}
+
+@media screen and (min-width: 1024px\0) and (max-width: 9999px\0) {
+    .coupons-btn-deals {
+        right: 21px;
+    }
+}
